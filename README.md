@@ -9,6 +9,13 @@ This isn't intended as a full production model for authentication. However, it
 doesn't require a database and provides a basic and reasonably secure authentication
 system with the simplicity of maintenance from the htpasswd command.
 
+#### Usage
+
+The module works with htpasswd files created using bcrypt only. For example, to
+create a password file, use a command like this:
+
+    htpasswd -c -B .htpasswd myuser
+
 #### Configure Strategy
 
 The local authentication strategy authenticates users using a username and
@@ -30,3 +37,8 @@ application:
       function(req, res) {
         res.redirect('/');
       });
+
+#### Data 
+
+The module doesn't store or persist users. The user is made available as an
+object with a single property `username` with the given username. 
