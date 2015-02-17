@@ -9,6 +9,9 @@ This isn't intended as a full production model for authentication. However, it
 doesn't require a database and provides a basic and reasonably secure authentication
 system with the simplicity of maintenance from the htpasswd command.
 
+Significant portions of this module were derived from `passport-local` by 
+Jared Hanson.
+
 #### Usage
 
 The module works with htpasswd files created using bcrypt only. For example, to
