@@ -1,5 +1,5 @@
 {
-  "name": "passport-local",
+  "name": "passport-local-htpasswd",
   "version": "0.1.0",
   "description": "Local username and password authentication strategy for Passport.",
   "keywords": [
@@ -14,7 +14,7 @@
   ],
   "author": {
     "name": "Stuart Watt",
-    "email": "stuart.watt@turalt.com",
+    "email": "stuart@morungos.com",
     "url": "https://turalt.com"
   },
   "repository": {
