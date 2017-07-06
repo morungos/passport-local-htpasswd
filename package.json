@@ -1,0 +1,49 @@
+{
+  "name": "passport-local-htpasswd",
+  "version": "0.1.1",
+  "description": "Local username and password authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "local",
+    "auth",
+    "authn",
+    "authentication",
+    "username",
+    "password",
+    "htpasswd"
+  ],
+  "author": {
+    "name": "Stuart Watt",
+    "email": "stuart@morungos.com",
+    "url": "https://turalt.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morungos/passport-local-htpasswd.git"
+  },
+  "bugs": {
+    "url": "http://github.com/morungos/passport-local-htpasswd/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
