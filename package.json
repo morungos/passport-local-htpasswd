@@ -32,7 +32,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "bcrypt": "^0.8.1",
+    "bcryptjs": "^2.4.3",
     "passport-strategy": "1.x.x"
   },
   "devDependencies": {
